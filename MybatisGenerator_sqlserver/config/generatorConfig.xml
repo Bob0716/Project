@@ -11,12 +11,12 @@
 		</commentGenerator>
 		<!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
 		<!-- <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-			connectionURL="jdbc:sqlserver://localhost:1433;DatabaseName=volvo" userId="sa"
-			password="123456">
+			connectionURL="jdbc:sqlserver://localhost:1433;DatabaseName=volvo" userId=""
+			password="">
 		</jdbcConnection> -->
 		<jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-			connectionURL="jdbc:sqlserver://116.196.99.18:1433;DatabaseName=MMBackup" userId="sa"
-			password="b602!@#qwe">
+			connectionURL="jdbc:sqlserver://116.196.99.18:1433;DatabaseName=MMBackup" userId=""
+			password="">
 		</jdbcConnection>
 		<!-- <jdbcConnection driverClass="oracle.jdbc.OracleDriver" connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg" 
 			userId="yycg" password="yycg"> </jdbcConnection> -->
