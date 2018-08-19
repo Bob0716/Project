@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@172.16.128.11">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="imooc">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <table id="6" parent="2" name="pobomn"/>
+    <column id="7" parent="6" name="out_time">
+      <Position>1</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="8" parent="6" name="price">
+      <Position>2</Position>
+      <DataType>double|0</DataType>
+    </column>
+    <column id="9" parent="6" name="color">
+      <Position>3</Position>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="10" parent="6" name="transaction">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
